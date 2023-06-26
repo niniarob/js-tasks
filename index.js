@@ -51,3 +51,9 @@ for (let i = 0; i < strings.length; i++) {
   array.push(str);
 }
 console.log( array);
+
+
+const strings = ["help", "me"];
+const array = strings.map(str => str.slice(0, -1));
+
+console.log(array);
