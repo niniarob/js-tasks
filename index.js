@@ -31,6 +31,13 @@ for (let i = 0; i < split.length; i++) {
 console.log(firstC);
 
 
+const name = "nino robakidze ";
+const split = name.split(' ');
+const firstC = split.map(word => word.charAt(0).toUpperCase()).join(' ');
+
+console.log(firstC);
+
+
 
 
 
