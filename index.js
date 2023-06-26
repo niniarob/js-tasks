@@ -12,6 +12,11 @@ console.log(sum);
 
 
 
+let x = [1, -2, 3, -4, 5, -6];
+let y = x.filter(x => x > 0).reduce((acc, curr) => acc + curr, 0);
+
+console.log(y);
+
 
 
 // Abbreviate the name and return the name initials and move it to Upper Case:
